@@ -1,0 +1,18 @@
+form {
+    border-color: yellow;
+    border-width: 10px;
+    text-align: center;
+    color: blueviolet;
+}
+
+label {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+.inte {
+    font-size: 20px;
+}
