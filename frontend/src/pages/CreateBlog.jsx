@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";   // ✅ Add this
 
-const backendURL = "https://heathylifeblogbackend.onrender.com";
+const backendURL = "https://blogs-list-backend-zaoz.onrender.com";
 
 export default function CreateBlog() {
   const navigate = useNavigate();  // ✅ Add this

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const backendURL = "https://heathylifeblogbackend.onrender.com";
+const backendURL = "https://blogs-list-backend-zaoz.onrender.com";
 
 export default function Blogs({ currentUser }) {  // ✅ Accept currentUser as prop
   const [blogs, setBlogs] = useState([]);
