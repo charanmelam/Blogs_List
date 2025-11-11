@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const backendURL = "https://blogs-list-backend-zaoz.onrender.com/";
+const backendURL = "https://blogs-list-backend2-0.onrender.com/";
 
 export default function EditBlog() {
   const { id } = useParams();

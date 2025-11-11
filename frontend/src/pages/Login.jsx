@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const backendURL = "https://blogs-list-backend-zaoz.onrender.com/";
+const backendURL = "https://blogs-list-backend2-0.onrender.com/";
 
 export default function Login({ setCurrentUser }) {  // ✅ Accept setCurrentUser from App
   const navigate = useNavigate();
